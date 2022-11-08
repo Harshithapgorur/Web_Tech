@@ -1,0 +1,13 @@
+@echo off
+Tital Digital clock
+@Mode can colse=30 line=70
+color 00
+:Main
+cls
+echo
+echo Time:%time%
+echo
+echo Date:%date%
+echo
+Ping-n 2 0.0.0.0>nul
+goto main
