@@ -1,0 +1,43 @@
+.rect{
+    padding: 50px,40px,50px,60px;
+    border: 30px solid blue;
+    width: 900px;
+    height: 900px
+    
+}
+.rect1{
+
+    border: 20px solid blueviolet ;
+    width: 500px;
+    height: 700px;
+    margin: 20px;
+}
+.rect2{
+    border: 30px solid red;
+    width: 500px;
+    height: 700px;
+    display:inline-block;
+
+}
+.rect3{
+    border: 30px solid red;
+    width: 500px;
+    height: 700px;
+    display: inline-block;
+
+}
+.hars{
+    border: 50px solid palevioletred;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+
+}
+body{
+    background-image:url('C:\\Users\\hp\\Pictures\\abc.png') ;
+    height: 5000px;
+    width: 1000%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
