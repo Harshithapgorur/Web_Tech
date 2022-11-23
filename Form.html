@@ -1,114 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <title>Register Form</title>
-    <form>
-        <div>
-            <label>Enter the Name</label>
-        <input type="text"name ="name"required>
-        </div><br>
+<!doctype html>
+<html>
+    <head>
+        <title>Register Form</title>
+        <link rel="stylesheet" href="cascading.css"></link>
+    </head>
+    <body>
+
+        <form>
+
+            <div>
+            <label>Enter first name</label>
+            <input type="text" autocomplete="off" first name" required minlength="2" maxlength="12">
+            
+            </div>
+            <br>
+
+            <div>
+            <label>Enter age</label>
+            <input type="number" name="age" min="10" max="100">
+            </div>
+            <br>
+
+            <div>
+            <label>Enter last name</label>
+            <input type="text" name="last name">
+            </div>
+            <br>
+            <!--email-->
+
+            <div>
+            <label>Enter email ID</label>
+            <input type="email" name="email">
+            </div>
+            <br>
+
+            <div>
+                <label>Enter password</label>
+                <input type="password" name="password" minlength="8" maxlength="10">
+            </div>
+            <br>
+
+            <div>
+                <label>Mobile Number</label>
+                <input type="tel" name="mobile number" required minlength="10" maxlength="12">
+            </div>
+            <br>
+
+            <div>
+                <label>Select Gender</label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Others
+            </div>
+            <br>
+
+            <div>
+                <label>Select City</label>
+                <select>
+                    <option>Bangalore</option>
+                    <option>Mysore</option>
+                    <option>Mangalore</option>
+                </select>
+            </div>
+            <br>
+
+            <label>Select course</label>
+            <input type="checkbox">Java
+            <input type="checkbox">Python
+            <input type="checkbox">Dotnet
+
+            <div>
+                <!--input type="submit"-->
+             
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+          
+            </div>
+
+            
 
 
-        <div>
-            <label>Enter the Last Name</label>
-        <input type="text"required>
-        </div><br>
-
-
-        <div>
-            <label>Enter the  Email Id</label>
-        <input type="text">
-        </div><br>
-
-        <div>
-            <label>Enter the  Password</label>
-        <input type="password" required minlenght ="1"  maxlength="8" name="password">
-        </div><br>
-        <div>
-            <label>Enter the  comform  Password</label>
-        <input type="password" required minlenght ="1"  maxlength="8" name="password" >
-        </div><br>
-        <div>
-            <label>Select Gender</label>
-        <input type="radio"name="Gender">male
-        <input type="radio"name="Gender">female
-        <input type="radio"name="Gender">others
-
-        </div><br>
-        <div>
-            <label>
-            Select city
-            </label>
-            <select>
-            <option>Bengalore</option>
-            <option>Mysore</option>
-            <option>Hassan</option>
-        </select>
-        </div><br>
-
-
-       <div>
-        <label>
-            Date Of Birth
-        </label>
-        <select>
-        <input type="date" name="birthDay">
-    </select>
-       </div>
-       
-       <div>
-        <label>
-                Mobile Number 
-            </label>
-        <input type="tel"  name ="MobileNumber"required minlenght ="0"  maxlength="10" name="MobileNumber">
-       </div><br>
-       <div>
-        <label>Select Course</label>
-        <input type="checkbox">JAVA
-        <input type="checkbox">Python
-        <input type="checkbox">DotNe
-
-       </div>
-
-
-       <div>
-        <label>
-            Address 
-        </label>
-       <textarea row ="10"></textarea>
-       </div>
-       <div>
-        <label>
-            Select File Resume
-        </label>
-        <input type ="file"name ="uploadFile">
-        </div><br>
-        <div>
-            <label>
-                Enter the Age
-            </label>
-            <input type="Number" required min ="0"  max="100" name="age">
-        </div>
-
-        
-
-
-        <input type="Submit"value="Submit">
-    </form>
-
-</body>
+        </form>
+    </body>
 </html>
-
-
-
-
-
-
-
-
